@@ -1,4 +1,5 @@
 import React from "react"
+import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
 const Skills = () => {
@@ -6,7 +7,9 @@ const Skills = () => {
     <div className="section">
       <div className="container">
         <div className="skills-container">
-          <h1>Skills</h1>
+          <Fade bottom>
+            <h1>Skills</h1>
+          </Fade>
           <div className="skills-grid">
             {data.skills.map(skill => (
               <div className="skill" key={skill.id}>
