@@ -20,11 +20,11 @@ export default {
   name: "chetan",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Bringing your ideas",
     //Line 2 For Header
-    "products, brands,",
+    "and innovations",
     //Line 3 For Header
-    "and experience",
+    "to life",
   ],
   //   Header Paragraph
   headerParagraph:
