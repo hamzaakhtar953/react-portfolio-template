@@ -1,13 +1,28 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import profilePic from "../images/profile-pic.jpg"
 
 const Header = () => {
   return (
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
+          <Fade right>
+            {/* <h2>
+              Hi, I'm {data.name}{" "}
+              <span role="img" aria-label="Emoji">
+                👋
+              </span>
+            </h2> */}
+            <div id="profile-pic" style={{
+              width: "150px",
+              height: "150px",
+            }}>
+              <img src={profilePic} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "50%" }} />
+            </div>
+          </Fade>
+          <Fade left>
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
