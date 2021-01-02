@@ -11,13 +11,14 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "hamza",
   headerTagline: [
     //Line 1 For Header
     "Bringing your ideas",
@@ -31,7 +32,7 @@ export default {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "hamzaakhtar0@gmail.com",
 
   // End Header Details -----------------------
 
@@ -187,14 +188,14 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/hamzaakhtar953" },
+    {
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/mhamzaakhtar/",
+    },
     {
       img: codepenIcon,
       url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
     },
     {
       img: instagramIcon,
